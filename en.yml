@@ -1,0 +1,142 @@
+name: Mateusz Gajewski
+keywords: java, staff software engineer, high performance, low-level, resume, distributed systems
+
+contact:
+  email: bWF0ZXVzei5nYWpld3NraUBnbWFpbC5jb20K
+  github:
+    link: github.com/wendigo
+    title: "@wendigo"
+  linkedin:
+    link: linkedin.com/in/mateuszgajewski
+    title: mateuszgajewski
+  location: Warsaw, Poland / remote
+  mobile: KzQ4IDY2MDE3MDEyMAo=
+summary: Experienced staff software engineer, contributor & open-source maintainer.
+font: Palatino
+sections:
+  contact: Contact
+  skills: Skills
+  experience: Experience
+  education: Education
+  languages: Languages
+  projects: Open-source projects
+  interests: Interests
+
+intro: |
+  I am an experienced staff software engineer, architect & open-source contributor, interested in designing and building high quality, scalable, low-latency, distributed systems. I'm programming in various languages and using many different technologies, always trying to find the right tool to a given problem. I enjoy working with simple and modern software, therefore I spend a lot of my energy improving it for others. Up-to-date list of publications, certifications, attended conferences and courses are available on my LinkedIn profile.
+
+skills:
+  - Java up to 21 (low-level)
+  - Trino/PrestoSQL/Hive
+  - Go
+  - distributed systems
+  - microservices
+  - containers
+  - kubernetes
+  - domain-driven design
+  - performance engineering
+  - security engineering
+  - process automation
+  - reverse engineering
+
+experience:
+  - years: 2019 — now
+    position: Staff software engineer, open-source contributor & maintainer
+    job: Starburst Data
+    city: Boston, Warsaw / Remote
+    summary:
+      keywords:
+        - name: Java [11, 21)
+          link: https://jdk.java.net/21
+        - name: Maven
+          link: https://maven.apache.org
+        - name: Kerberos
+          link: https://web.mit.edu/kerberos/
+        - name: data processing
+          link: https://en.wikipedia.org/wiki/Data_processing
+        - name: MPP
+          link: https://en.wikipedia.org/wiki/Massively_parallel
+        - name: reverse engineering
+          link: https://en.wikipedia.org/wiki/Reverse_engineering
+      details: |
+        Leading a team of up to 6 engineers, improving #link("https://trino.io")[Trino query engine] and #link("https://www.starburst.io/platform/starburst-enterprise/")[Starburst Enterprise] connectivity.
+        Contributing both the the open-source Trino and closed-source enterprise distribution. Automated most of the boring staff. Upgraded both products to JDK 17 and JDK 21. Worked on performance, security, troubleshooting, testing infrastructure, release automation and system tooling.
+
+  - years: 2017 — 2019
+    position: Consultant, advisor, mentor
+    job: various startups & SMEs
+    city: Warsaw / Remote
+    summary:
+      keywords:
+        - name: system design
+          link: https://en.wikipedia.org/wiki/Systems_design
+        - name: distributed architectures
+          link: https://en.wikipedia.org/wiki/Distributed_computing#Architectures
+        - name: strategic DDD
+          link: https://en.wikipedia.org/wiki/Domain-driven_design
+        - name: event storming
+          link: https://www.eventstorming.com/
+      details: |
+        As an advisor I worked with different companies (of various sizes and maturity) to help them gain skills needed for transforming their culture, technology stack, architecture, processes and systems while introducing innovative technologies to the existing systems.
+        I mentored teams, leads and architects on how to build scalable, extensible architectures while integrating them with legacy systems. My work involved conducting technical due diligence, technical debt assessments, workshops and trainings.
+
+  - years: 2009 — 2017
+    position: Solution architect, staff software engineer
+    job: Allegro
+    city: Poznań, Warsaw
+    summary:
+      keywords:
+        - name: Java
+          link: https://jdk.java.net/8
+        - name: PHP
+          link: https://php.net
+        - name: microservices
+          link: https://en.wikipedia.org/wiki/Microservices
+        - name: OCI
+          link: https://en.wikipedia.org/wiki/Open_Container_Initiative
+        - name: Mesos
+          link: https://mesos.apache.org/
+        - name: domain-driven design
+          link: https://en.wikipedia.org/wiki/Domain-driven_design
+        - name: monoliths
+          link: https://en.wikipedia.org/wiki/Monolithic_application
+      details: |
+        During my 8 years in Allegro, I've worked on both the old monolith application (16M+ LoC in PHP/C++) and as a first solution architect in the company, I've lead an initiative to design and execute on new architecture idea that eventually led to breaking large, monolithic platform into the set of 1000+ microservices deployed on the container orchestration platform. During this time, I've been conducting workshops and trainings, teaching new technologies and methodologies. I was mentoring teams, leading R&D projects, speaking at conferences and hiring new engineers.
+
+projects:
+  - name: Trino (previously known as PrestoSQL)
+    language: Java
+    summary: |
+      I'm contributor and maintainer of the open-source, massively parallel SQL-based query execution engine. I've upgraded project to JDK 17 and recently to JDK 21. I have also improved it's testing infrastructure based on Testcontainers and migrated most of the project dependencies to the latest versions (i.e. Javax to Jakarta).
+    repo: github.com/trinodb/trino
+  - name: chrome-protocol-proxy
+    language: Go
+    summary: |
+      Tool that makes it easier to work with the chrome debugger API while developing tools and integrations with it.
+    repo: github.com/wendigo/chrome-protocol-proxy
+  - name: go-bind-plugin
+    language: Go
+    summary: |
+      go:generate tool for building golang 1.8+ plugins and generating wrappers around exported symbols (functions and variables).
+    repo: https://github.com/wendigo/go-bind-plugin
+
+education:
+  - years: 2009 — 2013
+    subject: Computer science
+    institute: University of Technology
+    city: Poznań
+
+languages:
+  - language: Polish
+    proficiency: native
+  - language: English
+    proficiency: advanced
+
+interests:
+  - weightlifting, cycling and swimming,
+  - supporting pro-democratic initiatives,
+  - attending live music shows, watching sci-fi tv shows,
+  - "#type#sub[sett]#super[ing] and $mono(\"typo\")$$bb(\"graphy\")$"
+
+gdpr: |
+  I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).
