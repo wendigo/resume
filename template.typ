@@ -2,6 +2,7 @@
 #import "@preview/backtrack:1.0.0": current-version
 
 #let content = yaml("en.yml")
+#let (preSpace, postSpace) = (v(0.8em), v(0.8em))
 
 #set document(
     title: (content.name + " resume"),
@@ -32,7 +33,7 @@
     ]
 ]
 
-= #content.sections.contact #v(0.8em)
+= #content.sections.contact #v(0.6em)
 #grid(
     columns: (15%, 35%, 15%, 35%),
     rows: (1.5em, 1.5em, 1.5em),
@@ -47,7 +48,9 @@
 
 #content.intro
 
-== #content.sections.skills #v(0.8em)
+#v(0.2em)
+== #content.sections.skills
+#v(0.6em)
 
 #box(height: 5em,
     columns(3, gutter: 10pt)[
@@ -56,7 +59,10 @@
         ]
     ]
 )
-== #content.sections.experience #v(0.8em)
+
+#preSpace
+== #content.sections.experience
+#postSpace
 
 #let render_keyword(keyword) = {
   link(keyword.link)[#keyword.name]
@@ -81,7 +87,9 @@
     )
 ]
 
-== #content.sections.education #v(0.8em)
+#preSpace
+== #content.sections.education
+#postSpace
 
 #for education in content.education [
     #grid(
@@ -98,7 +106,9 @@
     )
 ]
 
-== #content.sections.projects #v(1em)
+#preSpace
+== #content.sections.projects
+#postSpace
 
 #for project in content.projects [
     - *#project.name*
@@ -109,13 +119,17 @@
 
 ]
 
-== #content.sections.languages #v(1em)
+#preSpace
+== #content.sections.languages
+#postSpace
 
 #for language in content.languages [
     - #language.language (#language.proficiency)
 ]
 
-== #content.sections.interests #v(1em)
+#preSpace
+== #content.sections.interests
+#postSpace
 
 #for interest in content.interests [
     - #eval(interest, mode: "markup")
@@ -128,5 +142,5 @@
     This resume was carefully crafted using typesetting system #link("https://github.com/typst/typst")[typst] #current-version.displayable. Current #link("https://github.com/wendigo/resume/blob/master/resume-en.pdf")[version] and sources at #link("https://github.com/wendigo/resume")[github].
 ]
 
-#v(1em)
+#v(1.2em)
 #text(8pt, fill: silver)[#content.gdpr]

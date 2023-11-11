@@ -26,7 +26,7 @@ intro: |
   I am an experienced staff software engineer, architect & open-source contributor, interested in designing and building high quality, scalable, low-latency, distributed systems. I'm programming in various languages and using many different technologies, always trying to find the right tool to a given problem. I enjoy working with simple and modern software, therefore I spend a lot of my energy improving it for others. Up-to-date list of publications, certifications, attended conferences and courses are available on my LinkedIn profile.
 
 skills:
-  - Java up to 21 (low-level)
+  - Java (up to 21)
   - Trino/PrestoSQL/Hive
   - Go
   - distributed systems
