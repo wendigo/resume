@@ -7,7 +7,8 @@
 #set document(
     title: (content.name + " resume"),
     author: content.name,
-    keywords: content.keywords
+    keywords: content.keywords,
+    date: none
 )
 
 #set page(footer: [
