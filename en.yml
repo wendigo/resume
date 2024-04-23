@@ -60,7 +60,7 @@ experience:
           link: https://en.wikipedia.org/wiki/Reverse_engineering
       details: |
         Leading a team of up to 6 engineers, improving #link("https://trino.io")[Trino query engine] and #link("https://www.starburst.io/platform/starburst-enterprise/")[Starburst Enterprise] platform.
-        Contributing and maintaining both the open-source Trino and closed-source enterprise distribution of it. Automated most of the mundane processes. Upgraded both products to JDK 17 and JDK 22. Worked on performance, security, troubleshooting, testing infrastructure, release automation and system tooling.
+        Contributing and maintaining both the open-source Trino and closed-source enterprise distribution of it. Automated most of the mundane daily tasks. Upgraded both products to JDK 17 and JDK 22. Worked on performance, security, troubleshooting, testing infrastructure, release automation and system tooling.
 
   - years: 2017 — 2019
     position: Consultant, advisor, mentor
