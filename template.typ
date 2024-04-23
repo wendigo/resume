@@ -48,9 +48,9 @@
 
 #content.intro
 
-#v(0.2em)
+#preSpace
 == #content.sections.skills
-#v(0.6em)
+#postSpace
 
 #box(height: 5em,
     columns(3, gutter: 10pt)[
@@ -138,9 +138,9 @@
 #[
     #set align(center)
     #set text(fill: silver, size: 8pt)
-    #v(3em)
+    #v(2em)
     This resume was carefully crafted using typesetting system #link("https://github.com/typst/typst")[typst] #current-version.displayable. Current #link("https://github.com/wendigo/resume/blob/master/resume-en.pdf")[version] and sources at #link("https://github.com/wendigo/resume")[github].
 ]
 
-#v(1.2em)
+#v(0.5em)
 #text(8pt, fill: silver)[#content.gdpr]
