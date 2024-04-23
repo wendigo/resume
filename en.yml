@@ -23,11 +23,11 @@ sections:
   interests: Interests
 
 intro: |
-  I am an experienced staff software engineer, architect & open-source contributor, interested in designing and building high quality, scalable, low-latency, distributed systems. I'm programming in various languages and using many different technologies, always trying to find the right tool to a given problem. I enjoy working with simple and modern software, therefore I spend a lot of my energy improving it for others. Up-to-date list of publications, certifications, attended conferences and courses are available on my LinkedIn profile.
+  I am an experienced staff software engineer, architect & open-source maintainer, versed in designing and building high quality, scalable, low-latency, distributed systems. For 20 years I've been programming in various languages, building different architectures, using plethora of technology stacks, always trying to find and use just the right tools in a given problem space. I enjoy working with modern and comprehensive codebases, therefore I spend a lot of my time and energy improving it for others. Up-to-date list of publications, certifications, attended conferences and courses are available on my LinkedIn profile.
 
 skills:
-  - Java (up to 21)
-  - Trino/PrestoSQL/Hive
+  - Java (up to 23)
+  - Trino/Hadoop/Hive
   - Go
   - distributed systems
   - microservices
@@ -46,8 +46,8 @@ experience:
     city: Boston, Warsaw / Remote
     summary:
       keywords:
-        - name: Java [11, 21)
-          link: https://jdk.java.net/21
+        - name: Java [11, 23)
+          link: https://jdk.java.net/23
         - name: Maven
           link: https://maven.apache.org
         - name: Kerberos
@@ -59,8 +59,8 @@ experience:
         - name: reverse engineering
           link: https://en.wikipedia.org/wiki/Reverse_engineering
       details: |
-        Leading a team of up to 6 engineers, improving #link("https://trino.io")[Trino query engine] and #link("https://www.starburst.io/platform/starburst-enterprise/")[Starburst Enterprise] connectivity.
-        Contributing both the the open-source Trino and closed-source enterprise distribution. Automated most of the boring staff. Upgraded both products to JDK 17 and JDK 21. Worked on performance, security, troubleshooting, testing infrastructure, release automation and system tooling.
+        Leading a team of up to 6 engineers, improving #link("https://trino.io")[Trino query engine] and #link("https://www.starburst.io/platform/starburst-enterprise/")[Starburst Enterprise] platform.
+        Contributing and maintaining both the open-source Trino and closed-source enterprise distribution of it. Automated most of the boring staff. Upgraded both products to JDK 17 and JDK 22. Worked on performance, security, troubleshooting, testing infrastructure, release automation and system tooling.
 
   - years: 2017 — 2019
     position: Consultant, advisor, mentor
@@ -107,7 +107,7 @@ projects:
   - name: Trino (previously known as PrestoSQL)
     language: Java
     summary: |
-      I'm contributor and maintainer of the open-source, massively parallel SQL-based query execution engine. I've upgraded project to JDK 17 and recently to JDK 21. I have also improved it's testing infrastructure based on Testcontainers and migrated most of the project dependencies to the latest versions (i.e. Javax to Jakarta).
+      I'm contributor and maintainer of the open-source, massively parallel SQL-based query execution engine. I've upgraded project to JDK 17 and recently to JDK 22. I have improved its' testing infrastructure and updated most of the project dependencies to the latest versions (i.e. moved from javax to Jakarta EE 10).
     repo: github.com/trinodb/trino
   - name: chrome-protocol-proxy
     language: Go
