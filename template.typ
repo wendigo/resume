@@ -11,7 +11,7 @@
     date: none
 )
 
-#set page(footer: [
+#set page(footer: context [
   #set align(center)
   #text(size: 8pt, fill: gray)[
   #counter(page).display(
